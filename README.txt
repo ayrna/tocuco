@@ -1,1 +1,1 @@
-## TOCUCO: The Tabular Ordinal Classification repository of the University of Córdoba
+# TOCUCO: The Tabular Ordinal Classification repository of the University of Córdoba
