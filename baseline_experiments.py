@@ -28,16 +28,16 @@ from baseline_experiments_utils import stream_tocuco_datasets
 """
 |!| DISCLAIMER:
 
-This script will take a long time to run, as it will train a model for each dataset in the TOCUCO dataset, using
+This script will take a long time to run, as it will train a model for each dataset in the TOC-UCO dataset, using
 a different seed for each dataset.
     
 → The utility of this script is to show how the baseline experiments published in [1] can be reproduced. 
 
-[1] TOCUCO: Tabular Ordinal Classification repository of the University of Cordoba. Rafael Ayllon-Gavilan,
+[1] TOC-UCO: Tabular Ordinal Classification repository of the University of Cordoba. Rafael Ayllon-Gavilan,
  David Guijo-Rubio, Antonio Manuel Gomez-Orellana, Victor Manuel Vargas-Yun and Pedro A. Gutierrez.
 """
 
-# Load TOCUCO into a temporary directory
+# Load TOC-UCO into a temporary directory
 url = "https://www.uco.es/grupos/ayrna/datasets/TOC-UCO.zip"
 response = requests.get(url)
 temp_file = tempfile.NamedTemporaryFile(delete=False)
@@ -46,8 +46,8 @@ tmp_tocuco_path = tempfile.mkdtemp()
 zip_ref = zipfile.ZipFile(temp_file.name, "r")
 zip_ref.extractall(tmp_tocuco_path)
 extracted_files = zip_ref.namelist()
-tmp_tocuco_path = os.path.join(tmp_tocuco_path, "TOCUCO")
-print("TOCUCO loaded into temporary directory:", tmp_tocuco_path)
+tmp_tocuco_path = os.path.join(tmp_tocuco_path, "TOC-UCO")
+print("TOC-UCO loaded into temporary directory:", tmp_tocuco_path)
 
 SCORER = make_scorer(amae, greater_is_better=False)
 RANDOM_SEARCH_N_ITERS = 20
