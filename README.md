@@ -17,13 +17,14 @@ wget https://www.uco.es/grupos/ayrna/datasets/TOC-UCO.zip
 :books: If you enjoyed this repository, we would appretiate a citation for the following work:
 If you enjoyed this framework, we would appretiate a citation for the following work:
 ```bibtex
-@misc{ayllóngavilán2025tocucocomprehensiverepositorytabular,
-      title={TOC-UCO: a comprehensive repository of tabular ordinal classification datasets}, 
-      author={Rafael Ayllón-Gavilán and David Guijo-Rubio and Antonio Manuel Gómez-Orellana and David Guijo-Rubio and Francisco Bérchez-Moreno and Víctor Manuel Vargas-Yun and Pedro A. Gutiérrez},
-      year={2025},
-      eprint={2507.17348},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2507.17348}, 
+@article{Ayllon2026TOC,
+	author = {Ayll{\' o}n-Gavil{\' a}n, Rafael and Guijo-Rubio, David and G{\' o}mez-Orellana, Antonio Manuel and B{\' e}rchez-Moreno, Francisco and Vargas-Yun, V{\' i}ctor Manuel and Guti{\' e}rrez, Pedro Antonio},
+	journal = {Neurocomputing},
+	doi = {10.1016/j.neucom.2026.133528},
+	year = {2026},
+	pages = {133528},
+	title = {TOC-{UCO}: a comprehensive repository of tabular ordinal classification datasets},
+	url = {https://www.sciencedirect.com/science/article/pii/S0925231226009252},
+	howpublished = {https://www.sciencedirect.com/science/article/pii/S0925231226009252},
 }
 ```
