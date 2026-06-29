@@ -160,7 +160,7 @@ The following table details the exact hyperparameter grid values evaluated durin
 
 ---
 
-### :search: Hyperparameter Search Strategy
+### 🔍: Hyperparameter Search Strategy
 
 To find the optimal configurations from the grids above, the selection across all methods is strictly optimized based on the **AMAE (Average Absolute Error)** metric, using two different validation strategies depending on the model type:
 
