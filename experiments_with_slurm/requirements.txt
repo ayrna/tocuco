@@ -1,0 +1,11 @@
+numpy
+remayn
+torch
+torchvision
+scikit-learn
+skorch
+submitit==1.4.5
+setuptools==81.0.0
+mord
+dlordinal
+xgboost
