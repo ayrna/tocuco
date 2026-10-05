@@ -154,9 +154,9 @@ The following table details the exact hyperparameter grid values evaluated durin
 | | Learning rate | {$10^{-5}, 10^{-4}, 10^{-3}$} |
 | **MLP-CLM** | Minimum distance | {0.0, 0.1, 0.2} |
 | **MLP-T** | Alpha | {0.05, 0.10} |
-| **OEAB** | Estimator max depth | {4, 16, 32, 64} |
-| | #Estimators ($M$) | {10, 30} |
-| | Regularisation strenght | {$10^{-4}, 10^{-3}, 10^{-2}$} |
+| **OEAB** | n_hidden | {4, 16, 32, 64} |
+| | n_estimators ($M$) | {10, 30} |
+| | Learning Rate | {0.001, 0.005} |
 
 ---
 
