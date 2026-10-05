@@ -141,7 +141,7 @@ The following table details the exact hyperparameter grid values evaluated durin
 
 | Method | Hyperparameter | Values |
 | :--- | :--- | :--- |
-| **Ridge, LogAT, and LogIT** | Regularisation strength | {$10^{-3}, 10^{-2}, 10^{-1}, 10^0, 10^1, 10^2, 10^3$} |
+| **Ridge, LogAT, and LogIT** | Regularisation strength | {0.001, 0.01, 0.1, 1, 10, 100, 1000$} |
 | | Maximum iterations | {1000, 1500, 3000, 5000} |
 | **Ridge** | Intercept inclusion | {True, False} |
 | **XGB** | Max depth | {3, 5, 8} |
@@ -151,7 +151,7 @@ The following table details the exact hyperparameter grid values evaluated durin
 | | Feature subsample (%) | {0.75, 0.95, 1.0} |
 | **MLP, MLP-CLM, and MLP-T** | #Hidden units | {5, 8, 10, 15, 20, 50, 100} |
 | | #Epochs | {1000, 1500, 3000, 5000} |
-| | Learning rate | {$10^{-5}, 10^{-4}, 10^{-3}$} |
+| | Learning rate | {0.00001, 0.0001, 0.001$} |
 | **MLP-CLM** | Minimum distance | {0.0, 0.1, 0.2} |
 | **MLP-T** | Alpha | {0.05, 0.10} |
 | **OEAB** | n_hidden | {4, 16, 32, 64} |
