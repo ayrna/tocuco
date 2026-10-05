@@ -141,7 +141,7 @@ The following table details the exact hyperparameter grid values evaluated durin
 
 | Method | Hyperparameter | Values |
 | :--- | :--- | :--- |
-| **Ridge, LogAT, and LogIT** | Regularisation strength | {0.001, 0.01, 0.1, 1, 10, 100, 1000$} |
+| **Ridge, LogAT, and LogIT** | Regularisation strength | {0.001, 0.01, 0.1, 1, 10, 100, 1000} |
 | | Maximum iterations | {1000, 1500, 3000, 5000} |
 | **Ridge** | Intercept inclusion | {True, False} |
 | **XGB** | Max depth | {3, 5, 8} |
